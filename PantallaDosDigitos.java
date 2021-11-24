@@ -64,7 +64,7 @@ public class PantallaDosDigitos
      */
     public void incrementaValorAlmacenado1() {
         if (valorAlmacenado == (valorLimite - 1)) {
-            valorAlmacenado = 0;
+            valorAlmacenado = valorInicial;
         }
         else {
             valorAlmacenado = valorAlmacenado + 1;
